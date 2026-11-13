@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NotNow Shell — Privacy Policy / Политика конфиденциальности</title>
+  <style>
+    :root {
+      --bg-color: #fcfcfc;
+      --card-bg: #ffffff;
+      --text-color: #1a1a1a;
+      --text-muted: #5f5f5f;
+      --border-color: #e5e5e5;
+      --accent-color: #0066cc;
+      --accent-hover: #004c99;
+      --table-header: #f4f4f4;
+      --badge-bg: #eaf3ff;
+      --badge-text: #0066cc;
+      --code-bg: #f0f0f0;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg-color: #121214;
+        --card-bg: #1c1c1f;
+        --text-color: #e6e6e6;
+        --text-muted: #9e9e9e;
+        --border-color: #2e2e33;
+        --accent-color: #4da3ff;
+        --accent-hover: #80bfff;
+        --table-header: #242429;
+        --badge-bg: #182b40;
+        --badge-text: #66b2ff;
+        --code-bg: #27272d;
+      }
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      padding: 2rem 1rem;
+    }
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      background-color: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 2.5rem;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+    }
+    header {
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .brand-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+    .lang-switcher {
+      display: inline-flex;
+      background: var(--code-bg);
+      border-radius: 6px;
+      padding: 3px;
+      border: 1px solid var(--border-color);
+    }
+    .lang-btn {
+      padding: 4px 12px;
+      border-radius: 4px;
+      text-decoration: none;
+      color: var(--text-color);
+      font-size: 0.85rem;
+      font-weight: 600;
+      transition: background-color 0.15s ease;
+    }
+    .lang-btn:hover {
+      color: var(--accent-color);
+    }
+    .lang-btn.active {
+      background-color: var(--card-bg);
+      color: var(--accent-color);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    .meta-info {
+      margin-top: 0.5rem;
+      font-size: 0.875rem;
+      color: var(--text-muted);
+    }
+    .badge {
+      display: inline-block;
+      background-color: var(--badge-bg);
+      color: var(--badge-text);
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 4px;
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    h2 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin: 1.75rem 0 0.75rem;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 0.4rem;
+    }
+    p {
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+    }
+    ul {
+      margin-bottom: 1rem;
+      padding-left: 1.5rem;
+      font-size: 0.95rem;
+    }
+    li {
+      margin-bottom: 0.4rem;
+    }
+    code {
+      font-family: Consolas, "Cascadia Code", monospace;
+      font-size: 0.85em;
+      background-color: var(--code-bg);
+      padding: 0.15em 0.35em;
+      border-radius: 4px;
+    }
+    .table-wrapper {
+      overflow-x: auto;
+      margin: 1.25rem 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.875rem;
+      text-align: left;
+    }
+    th, td {
+      padding: 0.75rem 0.85rem;
+      border: 1px solid var(--border-color);
+      vertical-align: top;
+    }
+    th {
+      background-color: var(--table-header);
+      font-weight: 600;
+    }
+    .highlight-box {
+      border-left: 4px solid var(--accent-color);
+      background-color: var(--badge-bg);
+      padding: 1rem;
+      border-radius: 0 8px 8px 0;
+      margin: 1.25rem 0;
+      font-size: 0.95rem;
+    }
+    .highlight-box strong {
+      color: var(--accent-color);
+    }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border-color);
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      text-align: center;
+    }
+    .section-divider {
+      margin: 3rem 0;
+      border: 0;
+      border-top: 2px dashed var(--border-color);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand-row">
+        <div>
+          <span class="badge">Privacy First • 100% Offline</span>
+          <h1>NotNow Shell</h1>
+        </div>
+        <nav class="lang-switcher">
+          <a href="#lang-en" class="lang-btn active">English</a>
+          <a href="#lang-ru" class="lang-btn">Русский</a>
+        </nav>
+      </div>
+      <p class="meta-info">Document Version 1.0 • Last Updated: November 2026 • © 2026 NotNow</p>
+    </header>
+
+    <!-- ENGLISH SECTION -->
+    <main id="lang-en">
+      <h2>1. Privacy Principles & Offline Commitment</h2>
+      <p>
+        NotNow Shell is a native desktop shell for Windows 11 designed with <strong>complete privacy by design</strong>.
+        The application is engineered to operate <strong>100% offline</strong>.
+      </p>
+      <div class="highlight-box">
+        <strong>Zero Telemetry Commitment:</strong> NotNow Shell does not collect, log, track, or upload any user data,
+        telemetry, analytics, or behavioral statistics to remote servers or third parties.
+      </div>
+
+      <h2>2. Code & Architecture Verification</h2>
+      <p>The application is written in native C++17 and Win32/Direct2D:</p>
+      <ul>
+        <li><strong>No Networking Libraries:</strong> The codebase does not link against or call any Windows network libraries, including <code>WinHTTP</code>, <code>WinINet</code>, <code>urlmon</code> (<code>URLDownloadToFile</code>), or Winsock sockets (<code>ws2_32.lib</code>).</li>
+        <li><strong>No Network Capabilities:</strong> The official Microsoft Store package (MSIX) declares only <code>runFullTrust</code> and intentionally omits the <code>internetClient</code> and <code>internetClientServer</code> capabilities.</li>
+        <li><strong>Zero SDKs:</strong> No third-party analytical, crash-reporting, or advertising SDKs are included.</li>
+      </ul>
+
+      <h2>3. Local Storage Overview</h2>
+      <p>All data and configurations remain strictly within your Windows user profile (<code>%LOCALAPPDATA%\NotNow</code>, <code>%APPDATA%\NotNow</code>, or the active <code>notnow.ini</code>):</p>
+      
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>Data Stored Locally</th>
+              <th>File Location</th>
+              <th>User Control & Deletion</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Configuration</strong></td>
+              <td>Visual themes, panel layout, keybindings, window rules</td>
+              <td><code>notnow.ini</code></td>
+              <td>Configurable via Settings UI or directly in INI; deleting resets defaults.</td>
+            </tr>
+            <tr>
+              <td><strong>Launcher History</strong></td>
+              <td>Up to 50 recent apps and opened files for fast matching</td>
+              <td><code>&lt;ini&gt;.history.ini</code>, <code>&lt;ini&gt;.files.history.ini</code></td>
+              <td>Disable via <code>[launcher] history=0</code>; delete files to wipe.</td>
+            </tr>
+            <tr>
+              <td><strong>Run Dialog (Win+R)</strong></td>
+              <td>Commands executed in launcher Run mode</td>
+              <td><code>&lt;ini&gt;.run-history</code></td>
+              <td>Remove single item via <code>Shift+Delete</code> or delete file.</td>
+            </tr>
+            <tr>
+              <td><strong>Clipboard History</strong></td>
+              <td>Copied text, file lists, and images</td>
+              <td><code>&lt;ini&gt;.clipboard</code>, <code>&lt;ini&gt;.clipboard.d\</code></td>
+              <td><strong>Disabled by default</strong>. Password manager items are automatically excluded. Clearable via UI or file deletion.</td>
+            </tr>
+            <tr>
+              <td><strong>Notification Log</strong></td>
+              <td>Tray icon notification history</td>
+              <td><code>&lt;ini&gt;.notifications.log</code></td>
+              <td>Capped at 96 KB (~150 records). Disable via <code>[notifications] keepHistory=0</code>.</td>
+            </tr>
+            <tr>
+              <td><strong>File Search Index</strong></td>
+              <td>File paths on fixed drives for quick launcher search</td>
+              <td>In-memory only (<code>NotNowIndex.exe</code>)</td>
+              <td>No database written to disk. OneDrive cloud-only files are skipped. Disable via <code>[launcher] fileIndex=0</code>.</td>
+            </tr>
+            <tr>
+              <td><strong>AI Agents Status</strong></td>
+              <td>State indicators for local coding agents (Claude Code, Codex, Antigravity)</td>
+              <td><code>%LOCALAPPDATA%\NotNow\agents\</code></td>
+              <td>Communicates via local CLI hook (<code>notnow-agent.exe</code>). Only session statuses (working/waiting/done) are recorded; prompts and code are never tracked.</td>
+            </tr>
+            <tr>
+              <td><strong>Diagnostic Logs</strong></td>
+              <td>Application error logs and crash dumps (up to 5)</td>
+              <td><code>&lt;ini&gt;.log</code>, <code>%LOCALAPPDATA%\NotNow\crashes\</code></td>
+              <td>"Export Report" creates a local ZIP on Desktop with username masked as <code>&lt;user&gt;</code>. Sent only manually by you.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>4. System Integrations</h2>
+      <ul>
+        <li><strong>Wi-Fi Status:</strong> The quick settings flyout queries the local Windows Native Wi-Fi API (<code>wlanapi.dll</code>) solely to show available local SSIDs and toggle the adapter. No scan data leaves the device.</li>
+        <li><strong>Web Search / Links:</strong> When choosing web search in launcher or clicking an external link, NotNow Shell calls Windows <code>ShellExecuteW</code>, handing the request over to your default web browser. NotNow Shell initiates no web requests itself.</li>
+        <li><strong>Audio Mixer:</strong> Volume adjustments interact locally with Windows Core Audio sessions.</li>
+      </ul>
+
+      <h2>5. Uninstalling and Complete Removal</h2>
+      <p>
+        Uninstalling NotNow Shell via Windows Settings completely removes the program binaries. To wipe all stored settings and local histories, simply delete the <code>%LOCALAPPDATA%\NotNow</code> and <code>%APPDATA%\NotNow</code> folders.
+      </p>
+
+      <h2>6. Developer Contact</h2>
+      <p>
+        Inquiries: <a href="mailto:creonicmusic@gmail.com" style="color:var(--accent-color);">creonicmusic@gmail.com</a>
+      </p>
+    </main>
+
+    <hr class="section-divider">
+
+    <!-- RUSSIAN SECTION -->
+    <section id="lang-ru">
+      <h2>1. Принципы конфиденциальности и автономность</h2>
+      <p>
+        NotNow Shell — нативная оболочка рабочего стола для Windows 11, построенная на концепции <strong>абсолютной конфиденциальности</strong> (Privacy by Design).
+        Приложение функционирует <strong>на 100% в офлайн-режиме</strong>.
+      </p>
+      <div class="highlight-box">
+        <strong>Нулевая телеметрия:</strong> NotNow Shell не собирает, не отслеживает, не протоколирует и не отправляет пользовательские данные, телеметрию или статистику на удалённые серверы или сторонним организациям.
+      </div>
+
+      <h2>2. Архитектура и проверка исходного кода</h2>
+      <p>Приложение написано на C++17, Win32 и Direct2D:</p>
+      <ul>
+        <li><strong>Отсутствие сетевых модулей:</strong> В исходном коде отсутствуют вызовы сетевых библиотек Windows: <code>WinHTTP</code>, <code>WinINet</code>, <code>urlmon</code> (<code>URLDownloadToFile</code>) и сокетов Winsock (<code>ws2_32.lib</code>).</li>
+        <li><strong>Отсутствие сетевых прав в Microsoft Store:</strong> Пакет MSIX для Microsoft Store декларирует только стандартный запуск <code>runFullTrust</code> и не запрашивает разрешений <code>internetClient</code> или <code>internetClientServer</code>.</li>
+        <li><strong>Без сторонних SDK:</strong> В коде нет аналитических сервисов, трекеров и рекламных библиотек.</li>
+      </ul>
+
+      <h2>3. Локальные данные на компьютере</h2>
+      <p>Вся конфигурация и история сохраняются исключительно в вашем профиле Windows (<code>%LOCALAPPDATA%\NotNow</code>, <code>%APPDATA%\NotNow</code> или рядом с файлом <code>notnow.ini</code>):</p>
+      
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Компонент</th>
+              <th>Локальные данные</th>
+              <th>Расположение</th>
+              <th>Управление и удаление</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Настройки и темы</strong></td>
+              <td>Темы оформления, раскладки тайлинга, панель задач, горячие клавиши</td>
+              <td><code>notnow.ini</code></td>
+              <td>Настраивается через UI или вручную в INI; удаление сбрасывает настройки.</td>
+            </tr>
+            <tr>
+              <td><strong>История лаунчера</strong></td>
+              <td>До 50 недавних программ и файлов для быстрого запуска</td>
+              <td><code>&lt;ini&gt;.history.ini</code>, <code>&lt;ini&gt;.files.history.ini</code></td>
+              <td>Отключается параметром <code>[launcher] history=0</code>; удаление файлов очищает историю.</td>
+            </tr>
+            <tr>
+              <td><strong>Диалог «Выполнить» (Win+R)</strong></td>
+              <td>Команды, запущенные через лаунчер</td>
+              <td><code>&lt;ini&gt;.run-history</code></td>
+              <td>Удаление пункта по <code>Shift+Delete</code> или удаление файла целиком.</td>
+            </tr>
+            <tr>
+              <td><strong>Буфер обмена</strong></td>
+              <td>История скопированного текста, путей файлов и картинок</td>
+              <td><code>&lt;ini&gt;.clipboard</code>, <code>&lt;ini&gt;.clipboard.d\</code></td>
+              <td><strong>По умолчанию отключена</strong>. Пароли из менеджеров паролей игнорируются автоматически. Очищается в окне буфера или удалением файла.</td>
+            </tr>
+            <tr>
+              <td><strong>Уведомления</strong></td>
+              <td>Журнал сообщений значков трея</td>
+              <td><code>&lt;ini&gt;.notifications.log</code></td>
+              <td>Ограничен объёмом 96 КБ (~150 записей). Отключается через <code>[notifications] keepHistory=0</code>.</td>
+            </tr>
+            <tr>
+              <td><strong>Индекс файлов</strong></td>
+              <td>Имена файлов на дисках для быстрого поиска в лаунчере</td>
+              <td>Только в ОЗУ (<code>NotNowIndex.exe</code>)</td>
+              <td>Постоянной базы на диске нет. Облачные файлы OneDrive не скачиваются. Отключается через <code>[launcher] fileIndex=0</code>.</td>
+            </tr>
+            <tr>
+              <td><strong>Статус ИИ-агентов</strong></td>
+              <td>Индикация статуса локальных агентов (Claude Code, Codex, Antigravity)</td>
+              <td><code>%LOCALAPPDATA%\NotNow\agents\</code></td>
+              <td>Связь через локальную утилиту <code>notnow-agent.exe</code>. Хранятся только статусы сессий (работа/ожидание/готово); текст задач и код не читаются.</td>
+            </tr>
+            <tr>
+              <td><strong>Журналы диагностики</strong></td>
+              <td>Логи работы и до 5 дампов памяти при падениях</td>
+              <td><code>&lt;ini&gt;.log</code>, <code>%LOCALAPPDATA%\NotNow\crashes\</code></td>
+              <td>Функция «Собрать отчёт» формирует ZIP на рабочем столе с заменой имени пользователя на <code>&lt;user&gt;</code>. Отправляется только вами лично.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>4. Взаимодействие с системой</h2>
+      <ul>
+        <li><strong>Wi-Fi сети:</strong> Шторка быстрых настроек опрашивает Windows Native Wi-Fi API (<code>wlanapi.dll</code>) только для отображения доступных сетей и переключения подключения. Данные сканирования не передаются вовне.</li>
+        <li><strong>Веб-поиск и ссылки:</strong> При выборе поиска в сети лаунчер вызывает системную функцию <code>ShellExecuteW</code>, передавая URL вашему браузеру по умолчанию. NotNow Shell самостоятельных сетевых запросов не делает.</li>
+        <li><strong>Микшер громкости:</strong> Управление уровнем громкости приложений работает локально через Windows Core Audio.</li>
+      </ul>
+
+      <h2>5. Полное удаление</h2>
+      <p>
+        Деинсталляция NotNow Shell через стандартное меню «Установленные приложения» Windows удаляет саму программу. Для полного удаления всех созданных настроек и историй достаточно удалить каталоги <code>%LOCALAPPDATA%\NotNow</code> и <code>%APPDATA%\NotNow</code>.
+      </p>
+
+      <h2>6. Контакты разработчика</h2>
+      <p>
+        Вопросы и предложения: <a href="mailto:creonicmusic@gmail.com" style="color:var(--accent-color);">creonicmusic@gmail.com</a>
+      </p>
+    </section>
+
+    <footer>
+      NotNow Shell © 2026 NotNow. Independent native desktop shell for Windows 11.
+    </footer>
+  </div>
+</body>
+</html>
