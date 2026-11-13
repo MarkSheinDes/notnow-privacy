@@ -289,12 +289,16 @@
       <ul>
         <li><strong>Wi-Fi Status:</strong> The quick settings flyout queries the local Windows Native Wi-Fi API (<code>wlanapi.dll</code>) solely to show available local SSIDs and toggle the adapter. No scan data leaves the device.</li>
         <li><strong>Web Search / Links:</strong> When choosing web search in launcher or clicking an external link, NotNow Shell calls Windows <code>ShellExecuteW</code>, handing the request over to your default web browser. NotNow Shell initiates no web requests itself.</li>
+        <li><strong>Web search:</strong> The search query goes to the search engine you choose in Settings &gt; Search and launch (Google by default; Bing, DuckDuckGo, Yandex or your own address). The query is sent only when you pick the web search row, and only through your browser.</li>
+        <li><strong>Windows notifications:</strong> If the notification card is on (<code>[notifications] systemToasts=1</code>), NotNow Shell reads the notifications other apps show, read-only, from the Windows notification database on your PC, to show them near the panel. They are not sent anywhere. Turn it off in Settings &gt; Icons and notifications.</li>
+        <li><strong>Microphone level:</strong> The volume mixer shows the live level of your microphone only while the mixer window is open. Sound is not recorded or stored.</li>
+        <li><strong>Screenshots:</strong> Screenshots you take with NotNow are saved only where you choose or copied to the clipboard.</li>
         <li><strong>Audio Mixer:</strong> Volume adjustments interact locally with Windows Core Audio sessions.</li>
       </ul>
 
       <h2>5. Uninstalling and Complete Removal</h2>
       <p>
-        Uninstalling NotNow Shell via Windows Settings completely removes the program binaries. To wipe all stored settings and local histories, simply delete the <code>%LOCALAPPDATA%\NotNow</code> and <code>%APPDATA%\NotNow</code> folders.
+        Microsoft Store version: uninstalling NotNow Shell in Windows Settings &gt; Apps removes the program together with all its settings and histories. Before uninstalling you can keep your settings with Settings &gt; About &gt; Save settings to a file.
       </p>
 
       <h2>6. Developer Contact</h2>
@@ -394,12 +398,16 @@
       <ul>
         <li><strong>Wi-Fi сети:</strong> Шторка быстрых настроек опрашивает Windows Native Wi-Fi API (<code>wlanapi.dll</code>) только для отображения доступных сетей и переключения подключения. Данные сканирования не передаются вовне.</li>
         <li><strong>Веб-поиск и ссылки:</strong> При выборе поиска в сети лаунчер вызывает системную функцию <code>ShellExecuteW</code>, передавая URL вашему браузеру по умолчанию. NotNow Shell самостоятельных сетевых запросов не делает.</li>
+        <li><strong>Веб-поиск:</strong> Запрос уходит в поисковую систему, которую вы выбрали в Настройках &gt; Поиск и запуск (по умолчанию Google; также Bing, DuckDuckGo, Яндекс или свой адрес). Запрос отправляется только когда вы выбрали строку веб-поиска, и только через ваш браузер.</li>
+        <li><strong>Уведомления Windows:</strong> Если включена карточка уведомлений (<code>[notifications] systemToasts=1</code>), NotNow Shell читает уведомления других программ — только чтение — из базы уведомлений Windows на вашем ПК, чтобы показать их у панели. Никуда они не передаются. Отключается в Настройках &gt; Значки и уведомления.</li>
+        <li><strong>Уровень микрофона:</strong> Микшер громкости показывает уровень микрофона только пока окно микшера открыто. Звук не записывается и не сохраняется.</li>
+        <li><strong>Снимки экрана:</strong> Снимки экрана, сделанные в NotNow, сохраняются только туда, куда вы укажете, или копируются в буфер обмена.</li>
         <li><strong>Микшер громкости:</strong> Управление уровнем громкости приложений работает локально через Windows Core Audio.</li>
       </ul>
 
       <h2>5. Полное удаление</h2>
       <p>
-        Деинсталляция NotNow Shell через стандартное меню «Установленные приложения» Windows удаляет саму программу. Для полного удаления всех созданных настроек и историй достаточно удалить каталоги <code>%LOCALAPPDATA%\NotNow</code> и <code>%APPDATA%\NotNow</code>.
+        Версия из Microsoft Store: удаление NotNow Shell через Параметры Windows &gt; Приложения удаляет программу вместе со всеми настройками и историями. Перед удалением настройки можно сохранить: Настройки &gt; О программе &gt; Сохранить настройки в файл.
       </p>
 
       <h2>6. Контакты разработчика</h2>
